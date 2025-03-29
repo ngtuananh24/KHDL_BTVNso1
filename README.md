@@ -28,7 +28,7 @@ Sau khi resample, dữ liệu có dạng:
 
 ### **Gợi ý cách làm**
 - Dùng `.to_datetime(df["datetime"])` để chuyển đổi cột thời gian.
-- Lọc dữ liệu bằng điều kiện `df["datetime"].dt.year >= 2020`.
+- Lọc dữ liệu bằng điều kiện `df["datetime"].dt.year >= 2015`.
 - Sử dụng `.resample("D", on="datetime").mean()` để lấy nhiệt độ trung bình theo ngày.
 - Dùng `.interpolate()` để nội suy nhiệt độ bị thiếu.
 - Vẽ biểu đồ xu hướng nhiệt độ theo tháng bằng Matplotlib.

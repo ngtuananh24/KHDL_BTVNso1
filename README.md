@@ -12,7 +12,7 @@
 
 ### **Yêu cầu bài tập**
 1. **Đọc dữ liệu và kiểm tra thông tin cột thời gian**.
-2. **Lọc dữ liệu**: Chỉ giữ lại dữ liệu từ năm 2020 trở đi.
+2. **Lọc dữ liệu**: Chỉ giữ lại dữ liệu từ năm 2015 trở đi.
 3. **Trích xuất thông tin thời gian**: Thêm cột `year`, `month`, `day_of_week`, `hour`.
 4. **Lấy mẫu lại dữ liệu**: Chuyển từ dữ liệu theo giờ thành **trung bình nhiệt độ theo ngày**.
 5. **Nội suy dữ liệu bị thiếu** để điền nhiệt độ bị khuyết.
